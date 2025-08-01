@@ -81,3 +81,7 @@ jobs:
           git add .
           git commit -m "Update Allure Report - $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
           git push --force origin gh-pages
+
+      - name: Display GH Pages Report URL
+        run: echo "✅ Allure Report available at: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
+
