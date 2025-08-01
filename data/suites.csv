@@ -1,2 +1,2 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","3178","Login","desktop","Fri Aug 01 13:09:36 UTC 2025","passed","Fri Aug 01 13:09:39 UTC 2025","","web/Demo/login-user_is_able_to_login.spec.ts","",""
+"","3716","Login","desktop","Fri Aug 01 13:25:17 UTC 2025","passed","Fri Aug 01 13:25:20 UTC 2025","","web/Demo/login-user_is_able_to_login.spec.ts","",""
