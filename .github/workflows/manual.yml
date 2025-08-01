@@ -33,7 +33,7 @@ jobs:
 
       - name: Run Playwright tests
         run: |
-          xvfb-run --auto-servernum npm run tag ${{ inputs.TAG }}
+          xvfb-run --auto-servernum npm run tag ${{ inputs.tag_or_file }}
         env:
           DISPLAY: ":99"
 
