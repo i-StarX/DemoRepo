@@ -3,10 +3,9 @@ name: Run Test Manually
 on:
   workflow_dispatch:
     inputs:
-      TAG:
-        description: "Type which test tag you want to run"
-        required: false
-        default: "@regression_web"
+      tag_or_file:
+        description: "Tag or test file to run"
+        required: true
 
 permissions: write-all
 
