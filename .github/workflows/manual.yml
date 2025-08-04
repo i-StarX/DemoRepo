@@ -83,5 +83,5 @@ jobs:
           git push --force origin gh-pages
 
       - name: Display GH Pages Report URL
-        run: echo "✅ Allure Report available at https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
+        run: echo ✅ Allure Report available at https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
 
