@@ -1,0 +1,337 @@
+{
+  "config": {
+    "configFile": "C:\\automation-project\\DemoRepo\\playwright.config.ts",
+    "rootDir": "C:/automation-project/DemoRepo/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": "C:\\automation-project\\DemoRepo\\setup.ts",
+    "globalTeardown": null,
+    "globalTimeout": 60000000,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "line",
+        null
+      ],
+      [
+        "C:\\automation-project\\DemoRepo\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/automation-project/DemoRepo/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "desktop",
+        "name": "desktop",
+        "testDir": "C:/automation-project/DemoRepo/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/tests/web/**/*.spec.ts"
+        ],
+        "timeout": 60000000
+      },
+      {
+        "outputDir": "C:/automation-project/DemoRepo/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "desktop1",
+        "name": "desktop",
+        "testDir": "C:/automation-project/DemoRepo/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/tests/api/**/*.spec.ts"
+        ],
+        "timeout": 60000000
+      },
+      {
+        "outputDir": "C:/automation-project/DemoRepo/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "mobile",
+        "name": "mobile",
+        "testDir": "C:/automation-project/DemoRepo/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/tests/mobile/**/*.spec.ts"
+        ],
+        "timeout": 60000000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.45.3",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "web\\Get Quote\\generate_a_quote_by_entering_valid_product_details,_quantities,_and_customer_information._act_31-40_couple_extras_only_313870.spec.ts",
+      "file": "web/Get Quote/generate_a_quote_by_entering_valid_product_details,_quantities,_and_customer_information._act_31-40_couple_extras_only_313870.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Get Quote TH",
+          "ok": true,
+          "tags": [
+            "regressionWelcome"
+          ],
+          "tests": [
+            {
+              "timeout": 60000000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 35930,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Console error: Refused to execute inline script because it violates the following Content Security Policy directive: \"script-src-elem 'self' *.visualwebsiteoptimizer.com app.vwo.com 'nonce-6c334c7039477433574c4e6366654530704c4d6f7361356a75732f7a76564f4b6b724b344661614a6248633d' data: https: 'strict-dynamic'\". Either the 'unsafe-inline' keyword, a hash ('sha256-zqI85iWNIT1u95UfEfepUecrlpK+ZhIpaCFveG01s9c='), or a nonce ('nonce-...') is required to enable inline execution.\n\n"
+                    },
+                    {
+                      "text": "Network failure: https://www.google-analytics.com/g/collect?v=2&tid=G-38VMH57C8P&gtm=45je5a32v896656605z86791607za200zb6791607zd6791607&_p=1759818272598&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=260623341.1759818274&ul=en-us&are=1&frm=0&pscdl=noapi&_geo=1&_rdi=1&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527906~104528501~104684208~104684211~104948813~115480710~115616985~115673441~115834636~115834638&sid=1759818273&sct=1&seg=0&dl=https%3A%2F%2Fwww.teachershealth.com.au%2Flive-quote-tool%2F&dt=Suggested%20cover%20for%20you%20%7C%20Health%20insurance%20%7C%20Teachers%20Health&en=page_view&_fv=1&_nsi=1&_ss=1&ep.debug_mode=true&tfd=2565 - net::ERR_ABORTED\n"
+                    },
+                    {
+                      "text": "Network failure: https://www.google-analytics.com/g/collect?v=2&tid=G-R241EN9LNT&gtm=45je5a32v896656605z86791607za200zb6791607zd6791607&_p=1759818272598&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=260623341.1759818274&ul=en-us&sr=1280x800&uaa=x86&uab=64&uafvl=Chromium%3B127.0.6533.17%7CNot)A%253BBrand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527906~104528501~104684208~104684211~104948813~115480710~115616985~115673441~115834636~115834638&sid=1759818273&sct=1&seg=0&dl=https%3A%2F%2Fwww.teachershealth.com.au%2Flive-quote-tool%2F&dt=Suggested%20cover%20for%20you%20%7C%20Health%20insurance%20%7C%20Teachers%20Health&en=page_view&_fv=1&_ss=1&ep.debug_mode=true&tfd=2574 - net::ERR_ABORTED\n"
+                    },
+                    {
+                      "text": "Network failure: https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g - net::ERR_ABORTED\n"
+                    },
+                    {
+                      "text": "Network failure: https://www.google-analytics.com/g/collect?v=2&tid=G-38VMH57C8P&gtm=45je5a32v896656605z86791607za200zb6791607zd6791607&_p=1759818272598&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=260623341.1759818274&ul=en-us&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_geo=1&_rdi=1&tag_exp=101509157~103116026~103200004~103233427~104527906~104528501~104684208~104684211~104948813~115480710~115616985~115673441~115834636~115834638&sid=1759818273&sct=1&seg=0&dl=https%3A%2F%2Fwww.teachershealth.com.au%2Flive-quote-tool%2F&dt=Suggested%20cover%20for%20you%20%7C%20Health%20insurance%20%7C%20Teachers%20Health&_s=2&tfd=7581 - net::ERR_ABORTED\n"
+                    },
+                    {
+                      "text": "Network failure: https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=COG6F1JC77U2K6E2DOL0&lib=ttq - net::ERR_CONNECTION_TIMED_OUT\n"
+                    },
+                    {
+                      "text": "Console error: Failed to load resource: net::ERR_CONNECTION_TIMED_OUT\n"
+                    },
+                    {
+                      "text": "Network failure: https://www.google-analytics.com/g/collect?v=2&tid=G-QSHFF3PFFQ&gtm=45je5a32v895091419z86791607za200zb6791607zd6791607&_p=1759818272598&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=260623341.1759818274&ul=en-us&are=1&frm=0&pscdl=noapi&_geo=1&_rdi=1&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527906~104528501~104684208~104684211~104948813~115480710~115616985~115834636~115834638&sid=1759818295&sct=1&seg=0&dl=https%3A%2F%2Fwww.teachershealth.com.au%2Flive-quote-tool%2F&dt=Suggested%20cover%20for%20you%20%7C%20Health%20insurance%20%7C%20Teachers%20Health&_tu=KA&en=live_quote_clicks&_fv=1&_ss=1&ep.form_name=https%3A%2F%2Fwww.teachershealth.com.au%2Flive-quote-tool%2F%23&ep.form_input=ACT&tfd=24424 - net::ERR_ABORTED\n"
+                    },
+                    {
+                      "text": "Network failure: https://www.facebook.com/privacy_sandbox/topics/registration/?id=1880148092229116 - net::ERR_ABORTED\n"
+                    },
+                    {
+                      "text": "Console error: Refused to execute inline script because it violates the following Content Security Policy directive: \"script-src-elem 'self' *.visualwebsiteoptimizer.com app.vwo.com 'nonce-3663504c594e71784550352b667a58444d37547571724257686e52484779446d494279595847326c5072633d' data: https: 'strict-dynamic'\". Either the 'unsafe-inline' keyword, a hash ('sha256-zqI85iWNIT1u95UfEfepUecrlpK+ZhIpaCFveG01s9c='), or a nonce ('nonce-...') is required to enable inline execution.\n\n"
+                    },
+                    {
+                      "text": "Network failure: https://www.google.com/ccm/collect?en=page_view&dr=www.teachershealth.com.au&dl=https%3A%2F%2Fwww.teachershealth.com.au%2Flive-quote-tool%2F&scrsrc=www.googletagmanager.com&frm=0&rnd=732793596.1759818298&dt=Suggested%20cover%20for%20you%20%7C%20Health%20insurance%20%7C%20Teachers%20Health&auid=689877019.1759818273&navt=n&npa=0&gtm=45He5a32v6791607za200zd6791607xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~115480709~115834636~115834638~115868795~115868797&tft=1759818298396&tfd=636&apve=1&apvf=f - net::ERR_ABORTED\n"
+                    },
+                    {
+                      "text": "Network failure: https://www.google-analytics.com/g/collect?v=2&tid=G-38VMH57C8P&gtm=45je5a32v896656605z86791607za200zb6791607zd6791607&_p=1759818298276&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=260623341.1759818274&ul=en-us&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_geo=1&_rdi=1&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~115480710~115673441~115834636~115834638&sid=1759818273&sct=1&seg=1&dl=https%3A%2F%2Fwww.teachershealth.com.au%2Flive-quote-tool%2F%3Fhrc%3DACKC%26age%3D31&dr=https%3A%2F%2Fwww.teachershealth.com.au%2Flive-quote-tool%2F&dt=Suggested%20cover%20for%20you%20%7C%20Health%20insurance%20%7C%20Teachers%20Health&en=page_view&ep.debug_mode=true&tfd=945 - net::ERR_ABORTED\n"
+                    },
+                    {
+                      "text": "Network failure: https://www.google-analytics.com/privacy-sandbox/register-conversion?_c=1&cid=260623341.1759818274&dbk=226796707339859663&dma=0&en=live_quote_tool_submission&gtm=45je5a32v896656605z86791607za200zb6791607zd6791607&npa=0&tid=G-38VMH57C8P&dl=https%3A%2F%2Fwww.teachershealth.com.au%3F - net::ERR_ABORTED\n"
+                    },
+                    {
+                      "text": "Network failure: https://www.google-analytics.com/g/collect?v=2&tid=G-38VMH57C8P&gtm=45je5a32v896656605z86791607za200zb6791607zd6791607&_p=1759818298276&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=260623341.1759818274&ul=en-us&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_geo=1&_rdi=1&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~115480710~115673441~115834636~115834638&sid=1759818273&sct=1&seg=1&dl=https%3A%2F%2Fwww.teachershealth.com.au%2Flive-quote-tool%2F%3Fhrc%3DACKC%26age%3D31&dr=https%3A%2F%2Fwww.teachershealth.com.au%2Flive-quote-tool%2F&dt=Suggested%20cover%20for%20you%20%7C%20Health%20insurance%20%7C%20Teachers%20Health&_s=3&tfd=3574 - net::ERR_ABORTED\n"
+                    },
+                    {
+                      "text": "Network failure: https://www.google-analytics.com/g/collect?v=2&tid=G-R241EN9LNT&gtm=45je5a32v896656605z86791607za200zb6791607zd6791607&_p=1759818298276&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=260623341.1759818274&ul=en-us&sr=1280x800&uaa=x86&uab=64&uafvl=Chromium%3B127.0.6533.17%7CNot)A%253BBrand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~115480710~115673441~115834636~115834638&sid=1759818273&sct=1&seg=1&dl=https%3A%2F%2Fwww.teachershealth.com.au%2Flive-quote-tool%2F%3Fhrc%3DACKC%26age%3D31&dr=https%3A%2F%2Fwww.teachershealth.com.au%2Flive-quote-tool%2F&dt=Suggested%20cover%20for%20you%20%7C%20Health%20insurance%20%7C%20Teachers%20Health&en=page_view&ep.debug_mode=true&tfd=3582 - net::ERR_ABORTED\n"
+                    },
+                    {
+                      "text": "Network failure: https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g - net::ERR_ABORTED\n"
+                    },
+                    {
+                      "text": "Network failure: https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g - net::ERR_ABORTED\n"
+                    },
+                    {
+                      "text": "Network failure: https://www.teachershealth.com.au/live-quote-tool/?hrc=ACKC&age=31 - net::ERR_ABORTED\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "steps": [
+                    {
+                      "title": "Navigate to https://www.teachershealth.com.au/live-quote-tool/ : https://www.teachershealth.com.au/live-quote-tool/",
+                      "duration": 23957
+                    },
+                    {
+                      "title": "Click ACT : ",
+                      "duration": 673
+                    },
+                    {
+                      "title": "Click 31-40 : ",
+                      "duration": 626
+                    },
+                    {
+                      "title": "Click couple : ",
+                      "duration": 643
+                    },
+                    {
+                      "title": "Click Extras only : ",
+                      "duration": 673
+                    },
+                    {
+                      "title": "Click Get a quote now : ",
+                      "duration": 1126
+                    },
+                    {
+                      "title": "Enter Name : Test1",
+                      "duration": 2411
+                    },
+                    {
+                      "title": "Enter Lastname : akshar",
+                      "duration": 1270
+                    },
+                    {
+                      "title": "Enter Number : 0412345678",
+                      "duration": 1272
+                    },
+                    {
+                      "title": "Enter Email : test@vastix.com",
+                      "duration": 1243
+                    },
+                    {
+                      "title": "Click has cover : Y",
+                      "duration": 598
+                    },
+                    {
+                      "title": "Click Submit : ",
+                      "duration": 596
+                    }
+                  ],
+                  "startTime": "2025-10-07T06:24:29.167Z",
+                  "attachments": [
+                    {
+                      "name": "Console Error",
+                      "contentType": "text/plain",
+                      "body": "UmVmdXNlZCB0byBleGVjdXRlIGlubGluZSBzY3JpcHQgYmVjYXVzZSBpdCB2aW9sYXRlcyB0aGUgZm9sbG93aW5nIENvbnRlbnQgU2VjdXJpdHkgUG9saWN5IGRpcmVjdGl2ZTogInNjcmlwdC1zcmMtZWxlbSAnc2VsZicgKi52aXN1YWx3ZWJzaXRlb3B0aW1pemVyLmNvbSBhcHAudndvLmNvbSAnbm9uY2UtNmMzMzRjNzAzOTQ3NzQzMzU3NGM0ZTYzNjY2NTQ1MzA3MDRjNGQ2ZjczNjEzNTZhNzU3MzJmN2E3NjU2NGY0YjZiNzI0YjM0NDY2MTYxNGE2MjQ4NjMzZCcgZGF0YTogaHR0cHM6ICdzdHJpY3QtZHluYW1pYyciLiBFaXRoZXIgdGhlICd1bnNhZmUtaW5saW5lJyBrZXl3b3JkLCBhIGhhc2ggKCdzaGEyNTYtenFJODVpV05JVDF1OTVVZkVmZXBVZWNybHBLK1poSXBhQ0Z2ZUcwMXM5Yz0nKSwgb3IgYSBub25jZSAoJ25vbmNlLS4uLicpIGlzIHJlcXVpcmVkIHRvIGVuYWJsZSBpbmxpbmUgZXhlY3V0aW9uLgo="
+                    },
+                    {
+                      "name": "Network Failure",
+                      "contentType": "text/plain",
+                      "body": "aHR0cHM6Ly93d3cuZ29vZ2xlLWFuYWx5dGljcy5jb20vZy9jb2xsZWN0P3Y9MiZ0aWQ9Ry0zOFZNSDU3QzhQJmd0bT00NWplNWEzMnY4OTY2NTY2MDV6ODY3OTE2MDd6YTIwMHpiNjc5MTYwN3pkNjc5MTYwNyZfcD0xNzU5ODE4MjcyNTk4JmdjZD0xM2wzbDNsM2wxbDEmbnBhPTAmZG1hPTAmY2lkPTI2MDYyMzM0MS4xNzU5ODE4Mjc0JnVsPWVuLXVzJmFyZT0xJmZybT0wJnBzY2RsPW5vYXBpJl9nZW89MSZfcmRpPTEmX3M9MSZ0YWdfZXhwPTEwMTUwOTE1N34xMDMxMTYwMjZ+MTAzMjAwMDA0fjEwMzIzMzQyN34xMDQ1Mjc5MDZ+MTA0NTI4NTAxfjEwNDY4NDIwOH4xMDQ2ODQyMTF+MTA0OTQ4ODEzfjExNTQ4MDcxMH4xMTU2MTY5ODV+MTE1NjczNDQxfjExNTgzNDYzNn4xMTU4MzQ2Mzgmc2lkPTE3NTk4MTgyNzMmc2N0PTEmc2VnPTAmZGw9aHR0cHMlM0ElMkYlMkZ3d3cudGVhY2hlcnNoZWFsdGguY29tLmF1JTJGbGl2ZS1xdW90ZS10b29sJTJGJmR0PVN1Z2dlc3RlZCUyMGNvdmVyJTIwZm9yJTIweW91JTIwJTdDJTIwSGVhbHRoJTIwaW5zdXJhbmNlJTIwJTdDJTIwVGVhY2hlcnMlMjBIZWFsdGgmZW49cGFnZV92aWV3Jl9mdj0xJl9uc2k9MSZfc3M9MSZlcC5kZWJ1Z19tb2RlPXRydWUmdGZkPTI1NjUgLSBuZXQ6OkVSUl9BQk9SVEVE"
+                    },
+                    {
+                      "name": "Network Failure",
+                      "contentType": "text/plain",
+                      "body": "aHR0cHM6Ly93d3cuZ29vZ2xlLWFuYWx5dGljcy5jb20vZy9jb2xsZWN0P3Y9MiZ0aWQ9Ry1SMjQxRU45TE5UJmd0bT00NWplNWEzMnY4OTY2NTY2MDV6ODY3OTE2MDd6YTIwMHpiNjc5MTYwN3pkNjc5MTYwNyZfcD0xNzU5ODE4MjcyNTk4JmdjZD0xM2wzbDNsM2wxbDEmbnBhPTAmZG1hPTAmY2lkPTI2MDYyMzM0MS4xNzU5ODE4Mjc0JnVsPWVuLXVzJnNyPTEyODB4ODAwJnVhYT14ODYmdWFiPTY0JnVhZnZsPUNocm9taXVtJTNCMTI3LjAuNjUzMy4xNyU3Q05vdClBJTI1M0JCcmFuZCUzQjk5LjAuMC4wJnVhbWI9MCZ1YW09JnVhcD1XaW5kb3dzJnVhcHY9MTAuMC4wJnVhdz0wJmFyZT0xJmZybT0wJnBzY2RsPW5vYXBpJl9zPTEmdGFnX2V4cD0xMDE1MDkxNTd+MTAzMTE2MDI2fjEwMzIwMDAwNH4xMDMyMzM0Mjd+MTA0NTI3OTA2fjEwNDUyODUwMX4xMDQ2ODQyMDh+MTA0Njg0MjExfjEwNDk0ODgxM34xMTU0ODA3MTB+MTE1NjE2OTg1fjExNTY3MzQ0MX4xMTU4MzQ2MzZ+MTE1ODM0NjM4JnNpZD0xNzU5ODE4MjczJnNjdD0xJnNlZz0wJmRsPWh0dHBzJTNBJTJGJTJGd3d3LnRlYWNoZXJzaGVhbHRoLmNvbS5hdSUyRmxpdmUtcXVvdGUtdG9vbCUyRiZkdD1TdWdnZXN0ZWQlMjBjb3ZlciUyMGZvciUyMHlvdSUyMCU3QyUyMEhlYWx0aCUyMGluc3VyYW5jZSUyMCU3QyUyMFRlYWNoZXJzJTIwSGVhbHRoJmVuPXBhZ2VfdmlldyZfZnY9MSZfc3M9MSZlcC5kZWJ1Z19tb2RlPXRydWUmdGZkPTI1NzQgLSBuZXQ6OkVSUl9BQk9SVEVE"
+                    },
+                    {
+                      "name": "Network Failure",
+                      "contentType": "text/plain",
+                      "body": "aHR0cHM6Ly9weC5hZHMubGlua2VkaW4uY29tL3dhLz9tZWRpdW09ZmV0Y2gmZm10PWcgLSBuZXQ6OkVSUl9BQk9SVEVE"
+                    },
+                    {
+                      "name": "Network Failure",
+                      "contentType": "text/plain",
+                      "body": "aHR0cHM6Ly93d3cuZ29vZ2xlLWFuYWx5dGljcy5jb20vZy9jb2xsZWN0P3Y9MiZ0aWQ9Ry0zOFZNSDU3QzhQJmd0bT00NWplNWEzMnY4OTY2NTY2MDV6ODY3OTE2MDd6YTIwMHpiNjc5MTYwN3pkNjc5MTYwNyZfcD0xNzU5ODE4MjcyNTk4JmdjZD0xM2wzbDNsM2wxbDEmbnBhPTAmZG1hPTAmY2lkPTI2MDYyMzM0MS4xNzU5ODE4Mjc0JnVsPWVuLXVzJmFyZT0xJmZybT0wJnBzY2RsPW5vYXBpJl9ldT1BQUFBQUFRJl9nZW89MSZfcmRpPTEmdGFnX2V4cD0xMDE1MDkxNTd+MTAzMTE2MDI2fjEwMzIwMDAwNH4xMDMyMzM0Mjd+MTA0NTI3OTA2fjEwNDUyODUwMX4xMDQ2ODQyMDh+MTA0Njg0MjExfjEwNDk0ODgxM34xMTU0ODA3MTB+MTE1NjE2OTg1fjExNTY3MzQ0MX4xMTU4MzQ2MzZ+MTE1ODM0NjM4JnNpZD0xNzU5ODE4MjczJnNjdD0xJnNlZz0wJmRsPWh0dHBzJTNBJTJGJTJGd3d3LnRlYWNoZXJzaGVhbHRoLmNvbS5hdSUyRmxpdmUtcXVvdGUtdG9vbCUyRiZkdD1TdWdnZXN0ZWQlMjBjb3ZlciUyMGZvciUyMHlvdSUyMCU3QyUyMEhlYWx0aCUyMGluc3VyYW5jZSUyMCU3QyUyMFRlYWNoZXJzJTIwSGVhbHRoJl9zPTImdGZkPTc1ODEgLSBuZXQ6OkVSUl9BQk9SVEVE"
+                    },
+                    {
+                      "name": "Network Failure",
+                      "contentType": "text/plain",
+                      "body": "aHR0cHM6Ly9hbmFseXRpY3MudGlrdG9rLmNvbS9pMThuL3BpeGVsL2V2ZW50cy5qcz9zZGtpZD1DT0c2RjFKQzc3VTJLNkUyRE9MMCZsaWI9dHRxIC0gbmV0OjpFUlJfQ09OTkVDVElPTl9USU1FRF9PVVQ="
+                    },
+                    {
+                      "name": "Console Error",
+                      "contentType": "text/plain",
+                      "body": "RmFpbGVkIHRvIGxvYWQgcmVzb3VyY2U6IG5ldDo6RVJSX0NPTk5FQ1RJT05fVElNRURfT1VU"
+                    },
+                    {
+                      "name": "Network Failure",
+                      "contentType": "text/plain",
+                      "body": "aHR0cHM6Ly93d3cuZ29vZ2xlLWFuYWx5dGljcy5jb20vZy9jb2xsZWN0P3Y9MiZ0aWQ9Ry1RU0hGRjNQRkZRJmd0bT00NWplNWEzMnY4OTUwOTE0MTl6ODY3OTE2MDd6YTIwMHpiNjc5MTYwN3pkNjc5MTYwNyZfcD0xNzU5ODE4MjcyNTk4JmdjZD0xM2wzbDNsM2wxbDEmbnBhPTAmZG1hPTAmY2lkPTI2MDYyMzM0MS4xNzU5ODE4Mjc0JnVsPWVuLXVzJmFyZT0xJmZybT0wJnBzY2RsPW5vYXBpJl9nZW89MSZfcmRpPTEmX3M9MSZ0YWdfZXhwPTEwMTUwOTE1N34xMDMxMTYwMjZ+MTAzMjAwMDA0fjEwMzIzMzQyN34xMDQ1Mjc5MDZ+MTA0NTI4NTAxfjEwNDY4NDIwOH4xMDQ2ODQyMTF+MTA0OTQ4ODEzfjExNTQ4MDcxMH4xMTU2MTY5ODV+MTE1ODM0NjM2fjExNTgzNDYzOCZzaWQ9MTc1OTgxODI5NSZzY3Q9MSZzZWc9MCZkbD1odHRwcyUzQSUyRiUyRnd3dy50ZWFjaGVyc2hlYWx0aC5jb20uYXUlMkZsaXZlLXF1b3RlLXRvb2wlMkYmZHQ9U3VnZ2VzdGVkJTIwY292ZXIlMjBmb3IlMjB5b3UlMjAlN0MlMjBIZWFsdGglMjBpbnN1cmFuY2UlMjAlN0MlMjBUZWFjaGVycyUyMEhlYWx0aCZfdHU9S0EmZW49bGl2ZV9xdW90ZV9jbGlja3MmX2Z2PTEmX3NzPTEmZXAuZm9ybV9uYW1lPWh0dHBzJTNBJTJGJTJGd3d3LnRlYWNoZXJzaGVhbHRoLmNvbS5hdSUyRmxpdmUtcXVvdGUtdG9vbCUyRiUyMyZlcC5mb3JtX2lucHV0PUFDVCZ0ZmQ9MjQ0MjQgLSBuZXQ6OkVSUl9BQk9SVEVE"
+                    },
+                    {
+                      "name": "Network Failure",
+                      "contentType": "text/plain",
+                      "body": "aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL3ByaXZhY3lfc2FuZGJveC90b3BpY3MvcmVnaXN0cmF0aW9uLz9pZD0xODgwMTQ4MDkyMjI5MTE2IC0gbmV0OjpFUlJfQUJPUlRFRA=="
+                    },
+                    {
+                      "name": "Console Error",
+                      "contentType": "text/plain",
+                      "body": "UmVmdXNlZCB0byBleGVjdXRlIGlubGluZSBzY3JpcHQgYmVjYXVzZSBpdCB2aW9sYXRlcyB0aGUgZm9sbG93aW5nIENvbnRlbnQgU2VjdXJpdHkgUG9saWN5IGRpcmVjdGl2ZTogInNjcmlwdC1zcmMtZWxlbSAnc2VsZicgKi52aXN1YWx3ZWJzaXRlb3B0aW1pemVyLmNvbSBhcHAudndvLmNvbSAnbm9uY2UtMzY2MzUwNGM1OTRlNzE3ODQ1NTAzNTJiNjY3YTU4NDQ0ZDM3NTQ3NTcxNzI0MjU3Njg2ZTUyNDg0Nzc5NDQ2ZDQ5NDI3OTU5NTg0NzMyNmM1MDcyNjMzZCcgZGF0YTogaHR0cHM6ICdzdHJpY3QtZHluYW1pYyciLiBFaXRoZXIgdGhlICd1bnNhZmUtaW5saW5lJyBrZXl3b3JkLCBhIGhhc2ggKCdzaGEyNTYtenFJODVpV05JVDF1OTVVZkVmZXBVZWNybHBLK1poSXBhQ0Z2ZUcwMXM5Yz0nKSwgb3IgYSBub25jZSAoJ25vbmNlLS4uLicpIGlzIHJlcXVpcmVkIHRvIGVuYWJsZSBpbmxpbmUgZXhlY3V0aW9uLgo="
+                    },
+                    {
+                      "name": "Network Failure",
+                      "contentType": "text/plain",
+                      "body": "aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9jY20vY29sbGVjdD9lbj1wYWdlX3ZpZXcmZHI9d3d3LnRlYWNoZXJzaGVhbHRoLmNvbS5hdSZkbD1odHRwcyUzQSUyRiUyRnd3dy50ZWFjaGVyc2hlYWx0aC5jb20uYXUlMkZsaXZlLXF1b3RlLXRvb2wlMkYmc2Nyc3JjPXd3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbSZmcm09MCZybmQ9NzMyNzkzNTk2LjE3NTk4MTgyOTgmZHQ9U3VnZ2VzdGVkJTIwY292ZXIlMjBmb3IlMjB5b3UlMjAlN0MlMjBIZWFsdGglMjBpbnN1cmFuY2UlMjAlN0MlMjBUZWFjaGVycyUyMEhlYWx0aCZhdWlkPTY4OTg3NzAxOS4xNzU5ODE4MjczJm5hdnQ9biZucGE9MCZndG09NDVIZTVhMzJ2Njc5MTYwN3phMjAwemQ2NzkxNjA3eGVhJmdjZD0xM2wzbDNsM2wxbDEmZG1hPTAmdGFnX2V4cD0xMDE1MDkxNTd+MTAzMTE2MDI2fjEwMzIwMDAwNH4xMDMyMzM0Mjd+MTA0NTI3OTA3fjEwNDUyODUwMX4xMDQ2ODQyMDh+MTA0Njg0MjExfjEwNDk0ODgxM34xMTU0ODA3MDl+MTE1ODM0NjM2fjExNTgzNDYzOH4xMTU4Njg3OTV+MTE1ODY4Nzk3JnRmdD0xNzU5ODE4Mjk4Mzk2JnRmZD02MzYmYXB2ZT0xJmFwdmY9ZiAtIG5ldDo6RVJSX0FCT1JURUQ="
+                    },
+                    {
+                      "name": "Network Failure",
+                      "contentType": "text/plain",
+                      "body": "aHR0cHM6Ly93d3cuZ29vZ2xlLWFuYWx5dGljcy5jb20vZy9jb2xsZWN0P3Y9MiZ0aWQ9Ry0zOFZNSDU3QzhQJmd0bT00NWplNWEzMnY4OTY2NTY2MDV6ODY3OTE2MDd6YTIwMHpiNjc5MTYwN3pkNjc5MTYwNyZfcD0xNzU5ODE4Mjk4Mjc2JmdjZD0xM2wzbDNsM2wxbDEmbnBhPTAmZG1hPTAmY2lkPTI2MDYyMzM0MS4xNzU5ODE4Mjc0JnVsPWVuLXVzJmFyZT0xJmZybT0wJnBzY2RsPW5vYXBpJl9ldT1BQUFBQUFRJl9nZW89MSZfcmRpPTEmX3M9MSZ0YWdfZXhwPTEwMTUwOTE1N34xMDMxMTYwMjZ+MTAzMjAwMDA0fjEwMzIzMzQyN34xMDQ1Mjc5MDd+MTA0NTI4NTAxfjEwNDY4NDIwOH4xMDQ2ODQyMTF+MTA0OTQ4ODEzfjExNTQ4MDcxMH4xMTU2NzM0NDF+MTE1ODM0NjM2fjExNTgzNDYzOCZzaWQ9MTc1OTgxODI3MyZzY3Q9MSZzZWc9MSZkbD1odHRwcyUzQSUyRiUyRnd3dy50ZWFjaGVyc2hlYWx0aC5jb20uYXUlMkZsaXZlLXF1b3RlLXRvb2wlMkYlM0ZocmMlM0RBQ0tDJTI2YWdlJTNEMzEmZHI9aHR0cHMlM0ElMkYlMkZ3d3cudGVhY2hlcnNoZWFsdGguY29tLmF1JTJGbGl2ZS1xdW90ZS10b29sJTJGJmR0PVN1Z2dlc3RlZCUyMGNvdmVyJTIwZm9yJTIweW91JTIwJTdDJTIwSGVhbHRoJTIwaW5zdXJhbmNlJTIwJTdDJTIwVGVhY2hlcnMlMjBIZWFsdGgmZW49cGFnZV92aWV3JmVwLmRlYnVnX21vZGU9dHJ1ZSZ0ZmQ9OTQ1IC0gbmV0OjpFUlJfQUJPUlRFRA=="
+                    },
+                    {
+                      "name": "Network Failure",
+                      "contentType": "text/plain",
+                      "body": "aHR0cHM6Ly93d3cuZ29vZ2xlLWFuYWx5dGljcy5jb20vcHJpdmFjeS1zYW5kYm94L3JlZ2lzdGVyLWNvbnZlcnNpb24/X2M9MSZjaWQ9MjYwNjIzMzQxLjE3NTk4MTgyNzQmZGJrPTIyNjc5NjcwNzMzOTg1OTY2MyZkbWE9MCZlbj1saXZlX3F1b3RlX3Rvb2xfc3VibWlzc2lvbiZndG09NDVqZTVhMzJ2ODk2NjU2NjA1ejg2NzkxNjA3emEyMDB6YjY3OTE2MDd6ZDY3OTE2MDcmbnBhPTAmdGlkPUctMzhWTUg1N0M4UCZkbD1odHRwcyUzQSUyRiUyRnd3dy50ZWFjaGVyc2hlYWx0aC5jb20uYXUlM0YgLSBuZXQ6OkVSUl9BQk9SVEVE"
+                    },
+                    {
+                      "name": "Network Failure",
+                      "contentType": "text/plain",
+                      "body": "aHR0cHM6Ly93d3cuZ29vZ2xlLWFuYWx5dGljcy5jb20vZy9jb2xsZWN0P3Y9MiZ0aWQ9Ry0zOFZNSDU3QzhQJmd0bT00NWplNWEzMnY4OTY2NTY2MDV6ODY3OTE2MDd6YTIwMHpiNjc5MTYwN3pkNjc5MTYwNyZfcD0xNzU5ODE4Mjk4Mjc2JmdjZD0xM2wzbDNsM2wxbDEmbnBhPTAmZG1hPTAmY2lkPTI2MDYyMzM0MS4xNzU5ODE4Mjc0JnVsPWVuLXVzJmFyZT0xJmZybT0wJnBzY2RsPW5vYXBpJl9ldT1BQUFBQUFRJl9nZW89MSZfcmRpPTEmdGFnX2V4cD0xMDE1MDkxNTd+MTAzMTE2MDI2fjEwMzIwMDAwNH4xMDMyMzM0Mjd+MTA0NTI3OTA3fjEwNDUyODUwMX4xMDQ2ODQyMDh+MTA0Njg0MjExfjEwNDk0ODgxM34xMTU0ODA3MTB+MTE1NjczNDQxfjExNTgzNDYzNn4xMTU4MzQ2Mzgmc2lkPTE3NTk4MTgyNzMmc2N0PTEmc2VnPTEmZGw9aHR0cHMlM0ElMkYlMkZ3d3cudGVhY2hlcnNoZWFsdGguY29tLmF1JTJGbGl2ZS1xdW90ZS10b29sJTJGJTNGaHJjJTNEQUNLQyUyNmFnZSUzRDMxJmRyPWh0dHBzJTNBJTJGJTJGd3d3LnRlYWNoZXJzaGVhbHRoLmNvbS5hdSUyRmxpdmUtcXVvdGUtdG9vbCUyRiZkdD1TdWdnZXN0ZWQlMjBjb3ZlciUyMGZvciUyMHlvdSUyMCU3QyUyMEhlYWx0aCUyMGluc3VyYW5jZSUyMCU3QyUyMFRlYWNoZXJzJTIwSGVhbHRoJl9zPTMmdGZkPTM1NzQgLSBuZXQ6OkVSUl9BQk9SVEVE"
+                    },
+                    {
+                      "name": "Network Failure",
+                      "contentType": "text/plain",
+                      "body": "aHR0cHM6Ly93d3cuZ29vZ2xlLWFuYWx5dGljcy5jb20vZy9jb2xsZWN0P3Y9MiZ0aWQ9Ry1SMjQxRU45TE5UJmd0bT00NWplNWEzMnY4OTY2NTY2MDV6ODY3OTE2MDd6YTIwMHpiNjc5MTYwN3pkNjc5MTYwNyZfcD0xNzU5ODE4Mjk4Mjc2JmdjZD0xM2wzbDNsM2wxbDEmbnBhPTAmZG1hPTAmY2lkPTI2MDYyMzM0MS4xNzU5ODE4Mjc0JnVsPWVuLXVzJnNyPTEyODB4ODAwJnVhYT14ODYmdWFiPTY0JnVhZnZsPUNocm9taXVtJTNCMTI3LjAuNjUzMy4xNyU3Q05vdClBJTI1M0JCcmFuZCUzQjk5LjAuMC4wJnVhbWI9MCZ1YW09JnVhcD1XaW5kb3dzJnVhcHY9MTAuMC4wJnVhdz0wJmFyZT0xJmZybT0wJnBzY2RsPW5vYXBpJl9ldT1BQUFBQUFRJl9zPTEmdGFnX2V4cD0xMDE1MDkxNTd+MTAzMTE2MDI2fjEwMzIwMDAwNH4xMDMyMzM0Mjd+MTA0NTI3OTA3fjEwNDUyODUwMX4xMDQ2ODQyMDh+MTA0Njg0MjExfjEwNDk0ODgxM34xMTU0ODA3MTB+MTE1NjczNDQxfjExNTgzNDYzNn4xMTU4MzQ2Mzgmc2lkPTE3NTk4MTgyNzMmc2N0PTEmc2VnPTEmZGw9aHR0cHMlM0ElMkYlMkZ3d3cudGVhY2hlcnNoZWFsdGguY29tLmF1JTJGbGl2ZS1xdW90ZS10b29sJTJGJTNGaHJjJTNEQUNLQyUyNmFnZSUzRDMxJmRyPWh0dHBzJTNBJTJGJTJGd3d3LnRlYWNoZXJzaGVhbHRoLmNvbS5hdSUyRmxpdmUtcXVvdGUtdG9vbCUyRiZkdD1TdWdnZXN0ZWQlMjBjb3ZlciUyMGZvciUyMHlvdSUyMCU3QyUyMEhlYWx0aCUyMGluc3VyYW5jZSUyMCU3QyUyMFRlYWNoZXJzJTIwSGVhbHRoJmVuPXBhZ2VfdmlldyZlcC5kZWJ1Z19tb2RlPXRydWUmdGZkPTM1ODIgLSBuZXQ6OkVSUl9BQk9SVEVE"
+                    },
+                    {
+                      "name": "Network Failure",
+                      "contentType": "text/plain",
+                      "body": "aHR0cHM6Ly9weC5hZHMubGlua2VkaW4uY29tL3dhLz9tZWRpdW09ZmV0Y2gmZm10PWcgLSBuZXQ6OkVSUl9BQk9SVEVE"
+                    },
+                    {
+                      "name": "Network Failure",
+                      "contentType": "text/plain",
+                      "body": "aHR0cHM6Ly9weC5hZHMubGlua2VkaW4uY29tL3dhLz9tZWRpdW09ZmV0Y2gmZm10PWcgLSBuZXQ6OkVSUl9BQk9SVEVE"
+                    },
+                    {
+                      "name": "Network Failure",
+                      "contentType": "text/plain",
+                      "body": "aHR0cHM6Ly93d3cudGVhY2hlcnNoZWFsdGguY29tLmF1L2xpdmUtcXVvdGUtdG9vbC8/aHJjPUFDS0MmYWdlPTMxIC0gbmV0OjpFUlJfQUJPUlRFRA=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "200f164eda71c8cfcd6e-6882c4a4bc5ba5d62bee",
+          "file": "web/Get Quote/generate_a_quote_by_entering_valid_product_details,_quantities,_and_customer_information._act_31-40_couple_extras_only_313870.spec.ts",
+          "line": 6,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-10-07T06:24:28.171Z",
+    "duration": 38252.347,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
