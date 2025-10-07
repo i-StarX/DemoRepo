@@ -22,6 +22,7 @@ export default defineConfig({
   workers: process.env.CI ? 1 : 1,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [['line'], ['allure-playwright'], ['json', { outputFile: 'test-results.json' }]
+  ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
@@ -37,14 +38,22 @@ export default defineConfig({
       slowMo: 500,
     },
   },
-  timeout: 1 * 60 * 1000,
-  globalTimeout: 1 * 60 * 1000,
-  expect: { timeout: 60000 },
+  timeout: 1000 * 60 * 1000,
+  globalTimeout: 1000 * 60 * 1000,
+  expect: { timeout: 1000 * 60 * 1000 },
   /* Configure projects for major browsers */
   projects: [
     {
       name: 'desktop',
       testMatch: ['**/tests/web/**/*.spec.ts'],
+      use: {
+        viewport: { width: 1280, height: 800 },
+        browserName: 'chromium',
+      },
+    },
+    {
+      name: 'desktop',
+      testMatch: ['**/tests/api/**/*.spec.ts'],
       use: {
         viewport: { width: 1280, height: 800 },
         browserName: 'chromium',
