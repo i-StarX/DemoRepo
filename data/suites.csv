@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","4993","Get Quote","webkit","Fri Dec 12 13:03:49 UTC 2025","passed","Fri Dec 12 13:03:54 UTC 2025","","web/Home/get_quote.spec.ts","",""
+"","4587","Get Quote","firefox","Fri Dec 12 13:03:42 UTC 2025","passed","Fri Dec 12 13:03:47 UTC 2025","","web/Home/get_quote.spec.ts","",""
+"","3920","Get Quote","desktop","Fri Dec 12 13:03:34 UTC 2025","passed","Fri Dec 12 13:03:37 UTC 2025","","web/Home/get_quote.spec.ts","",""
+"","5485","Get Quote","google-chrome","Fri Dec 12 13:03:56 UTC 2025","passed","Fri Dec 12 13:04:01 UTC 2025","","web/Home/get_quote.spec.ts","",""
+"","3413","Get Quote","chromium","Fri Dec 12 13:03:38 UTC 2025","passed","Fri Dec 12 13:03:42 UTC 2025","","web/Home/get_quote.spec.ts","",""
+"","8295","Get Quote","microsoft-edge","Fri Dec 12 13:04:05 UTC 2025","passed","Fri Dec 12 13:04:13 UTC 2025","","web/Home/get_quote.spec.ts","",""
