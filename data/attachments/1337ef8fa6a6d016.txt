@@ -1,0 +1,4 @@
+[JavaScript Error: "Content-Security-Policy: The page’s settings blocked a JavaScript eval (script-src) from being executed because it violates the following directive: “script-src 'self' https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.google.com https://googletagmanager.com https://tagmanager.google.com https://*.visualwebsiteoptimizer.com https://app.vwo.com 'nonce-326d434d506d3648713245656766704c713242764b59677378332f4530624561306e584f31307a424f56493d' data: https: 'strict-dynamic'” (Missing 'unsafe-eval')" {file: "https://www.teachershealth.com.au/static/js/v-639011324780000000/lqt.deferred.min.js" line: 1 column: 80211 source: "function anonymous(
+) {
+
+}"}]

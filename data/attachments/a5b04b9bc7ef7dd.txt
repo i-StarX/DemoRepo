@@ -1,0 +1,1 @@
+The source list for Content Security Policy directive 'font-src' contains an invalid source: ''strict-dynamic''. It will be ignored.
